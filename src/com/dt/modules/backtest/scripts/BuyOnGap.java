@@ -35,7 +35,6 @@ public class BuyOnGap extends Script {
 	public void handleEnterTick() {
 		List<Stock> stockArray = new ArrayList<Stock>(StockDatabase.getStockArray("sp500_2010"));
 		
-		//first condition: price gap is > 1 SD
 		for(int i = stockArray.size()-1; i >= 0; i--){
 			Stock stock = stockArray.get(i);
 			double returns = stock.getOpen(0) - stock.getLow(1);
