@@ -32,7 +32,7 @@ public class Example extends Script{
 	public void handleEnterTick(){
 		List<Stock> selectedStocks = new ArrayList<Stock>();
 		for (Stock stock : StockDatabase.getStockArray(ListType.SP500)){
-			if(stock.getPrice()>1.0 && stock.getMinimumVolume(20)>0){
+			if(stock.getClose(1)>1.0 && stock.getVolume(1)>100000){
 				selectedStocks.add(stock);
 			}
 		}
