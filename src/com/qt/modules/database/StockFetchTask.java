@@ -1,4 +1,4 @@
-package com.dt.modules.database;
+package com.qt.modules.database;
 
 //Used to download multiple stock csv's in an asynchronous way
 public class StockFetchTask implements Runnable {

@@ -5,7 +5,7 @@
 //  Created by Rob Graeber on Nov 3, 2012.
 //  Copyright 2012 Rob Graeber. All rights reserved.
 //
-package com.dt;
+package com.qt;
 
 import java.sql.Connection;
 import java.sql.DriverManager;
@@ -19,7 +19,7 @@ import java.util.EnumMap;
 import java.util.HashMap;
 import java.util.List;
 
-import com.dt.classes.Stock;
+import com.qt.classes.Stock;
 
 
 //The big repository of stock data, loads from database or cache as necessary

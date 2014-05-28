@@ -5,16 +5,16 @@
 //  Created by Rob Graeber on Nov 3, 2012.
 //  Copyright 2012 Rob Graeber. All rights reserved.
 //
-package com.dt.modules.backtest.macros;
+package com.qt.modules.backtest.macros;
 import java.util.ArrayList;
 import java.util.List;
 
-import com.dt.OrderManager;
-import com.dt.StockDatabase;
-import com.dt.classes.Stock;
-import com.dt.classes.Order.OrderType;
-import com.dt.modules.backtest.Macro;
 import com.effing.toolkit.Util2;
+import com.qt.OrderManager;
+import com.qt.StockDatabase;
+import com.qt.classes.Stock;
+import com.qt.classes.Order.OrderType;
+import com.qt.modules.backtest.Macro;
 
 //Simple algorithm that tracks a pair's relative change, buys stock1, shorts stock2
 //Also accepts lists and defaults to list if found, hopefully there's no collisions

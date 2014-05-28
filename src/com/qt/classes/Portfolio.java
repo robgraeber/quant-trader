@@ -1,4 +1,4 @@
-package com.dt.classes;
+package com.qt.classes;
 
 import java.util.ArrayList;
 //
@@ -10,7 +10,7 @@ import java.util.ArrayList;
 //
 import java.util.List;
 
-import com.dt.StockDatabase;
+import com.qt.StockDatabase;
 
 //Holds all the stock/assets and tracks algorithm results
 public class Portfolio {

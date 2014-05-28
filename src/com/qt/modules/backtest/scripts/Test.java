@@ -1,10 +1,10 @@
-package com.dt.modules.backtest.scripts;
+package com.qt.modules.backtest.scripts;
 
-import com.dt.OrderManager;
-import com.dt.StockDatabase;
-import com.dt.classes.Stock;
-import com.dt.classes.Order.OrderType;
-import com.dt.modules.backtest.Script;
+import com.qt.OrderManager;
+import com.qt.StockDatabase;
+import com.qt.classes.Stock;
+import com.qt.classes.Order.OrderType;
+import com.qt.modules.backtest.Script;
 
 //For testing purposes
 public class Test extends Script {

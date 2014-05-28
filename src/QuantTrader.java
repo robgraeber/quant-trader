@@ -6,9 +6,9 @@
 //  Copyright 2012 Rob Graeber. All rights reserved.
 //
 
-import com.dt.MainSystem;
+import com.qt.MainSystem;
 
-public class DataTrader {
+public class QuantTrader {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		MainSystem.init();

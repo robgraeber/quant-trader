@@ -1,4 +1,4 @@
-package com.dt.modules.backtest;
+package com.qt.modules.backtest;
 
 import java.awt.BasicStroke;
 import java.awt.Stroke;
@@ -18,12 +18,12 @@ import org.jfree.data.time.Day;
 import org.jfree.data.time.TimeSeries;
 import org.jfree.data.time.TimeSeriesCollection;
 
-import com.dt.Module;
-import com.dt.OrderManager;
-import com.dt.StockDatabase;
-import com.dt.classes.Asset;
-import com.dt.classes.Stock;
 import com.effing.toolkit.Util2;
+import com.qt.Module;
+import com.qt.OrderManager;
+import com.qt.StockDatabase;
+import com.qt.classes.Asset;
+import com.qt.classes.Stock;
 
 //The core backtest module
 //Add scripts and macros to their respective folders for dynamic loading.
@@ -137,7 +137,7 @@ public class Backtest extends Module {
 	}
 	private void searchForMacros(){
 		macroArray = new ArrayList<Macro>();
-		for(Class<?> macroClass:Util2.getClassesForPackage("com.dt.modules.backtest.macros")){
+		for(Class<?> macroClass:Util2.getClassesForPackage("com.qt.modules.backtest.macros")){
 			//System.out.println("Class:"+scriptClass);
 			try {
 				if(Macro.class.isAssignableFrom(macroClass)){
@@ -160,7 +160,7 @@ public class Backtest extends Module {
 	}
 	private void searchForScripts(){
 		scriptArray = new ArrayList<Script>();
-		for(Class<?> scriptClass:Util2.getClassesForPackage("com.dt.modules.backtest.scripts")){
+		for(Class<?> scriptClass:Util2.getClassesForPackage("com.qt.modules.backtest.scripts")){
 			//System.out.println("Class:"+scriptClass);
 			try {
 				if(Script.class.isAssignableFrom(scriptClass)){

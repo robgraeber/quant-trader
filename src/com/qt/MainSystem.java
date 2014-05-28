@@ -5,7 +5,7 @@
 //  Created by Rob Graeber on Nov 3, 2012.
 //  Copyright 2012 Rob Graeber. All rights reserved.
 //
-package com.dt;
+package com.qt;
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -27,11 +27,11 @@ public class MainSystem {
 		}else{
 			return;
 		}
-		System.out.println("Activating DataTrader v1.02 -- Backtest Mode");
+		System.out.println("Activating QuantTrader v1.02 -- Backtest Mode");
 		System.out.println("Warming up.. This may take a while");
 		System.out.println("Searching for Modules..");
-		for(String moduleName:Util2.getAllSubDirectories("src/com/dt/modules/")){
-			for(Class<?> moduleClass:Util2.getClassesForPackage("com.dt.modules."+moduleName)){	
+		for(String moduleName:Util2.getAllSubDirectories("src/com/qt/modules/")){
+			for(Class<?> moduleClass:Util2.getClassesForPackage("com.qt.modules."+moduleName)){	
 				try {
 					if(Module.class.isAssignableFrom(moduleClass)){
 						Module module = (Module)moduleClass.newInstance();

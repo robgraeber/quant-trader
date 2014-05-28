@@ -5,9 +5,9 @@
 //  Created by Rob Graeber on Nov 16, 2012.
 //  Copyright 2012 Rob Graeber. All rights reserved.
 //
-package com.dt.classes;
+package com.qt.classes;
 
-import com.dt.StockDatabase;
+import com.qt.StockDatabase;
 
 
 //Asset represents the asset holding of a portfolio, basically a stock, quantity, and average cost for tracking purposes

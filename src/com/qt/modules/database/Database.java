@@ -1,9 +1,9 @@
-package com.dt.modules.database;
+package com.qt.modules.database;
 
 import java.util.List;
 
-import com.dt.Module;
-import com.dt.StockDatabase;
+import com.qt.Module;
+import com.qt.StockDatabase;
 
 //The core database module
 //Handles the user lists, downloading data from yahoo, and some wrapper functions for the StockDatabase class

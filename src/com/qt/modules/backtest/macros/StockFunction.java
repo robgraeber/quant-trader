@@ -5,12 +5,12 @@
 //  Created by Rob Graeber on Nov 3, 2012.
 //  Copyright 2012 Rob Graeber. All rights reserved.
 //
-package com.dt.modules.backtest.macros;
-import com.dt.OrderManager;
-import com.dt.StockDatabase;
-import com.dt.classes.Stock;
-import com.dt.classes.Order.OrderType;
-import com.dt.modules.backtest.Macro;
+package com.qt.modules.backtest.macros;
+import com.qt.OrderManager;
+import com.qt.StockDatabase;
+import com.qt.classes.Stock;
+import com.qt.classes.Order.OrderType;
+import com.qt.modules.backtest.Macro;
 
 //Simple algorithm that tracks a certain stock, ie a benchmark
 //Command format: "backtest stock:APPL script1 script2"  

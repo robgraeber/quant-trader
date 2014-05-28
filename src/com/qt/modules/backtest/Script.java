@@ -5,9 +5,9 @@
 //  Created by Rob Graeber on Nov 3, 2012.
 //  Copyright 2012 Rob Graeber. All rights reserved.
 //
-package com.dt.modules.backtest;
+package com.qt.modules.backtest;
 
-import com.dt.classes.Portfolio;
+import com.qt.classes.Portfolio;
 
 
 

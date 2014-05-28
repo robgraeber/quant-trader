@@ -1,4 +1,4 @@
-package com.dt;
+package com.qt;
 
 import java.text.DecimalFormat;
 import java.util.ArrayList;
@@ -32,10 +32,11 @@ import java.util.List;
 
 
 
-import com.dt.classes.Order;
-import com.dt.classes.Portfolio;
-import com.dt.classes.Stock;
-import com.dt.classes.Order.OrderType;
+
+import com.qt.classes.Order;
+import com.qt.classes.Portfolio;
+import com.qt.classes.Stock;
+import com.qt.classes.Order.OrderType;
 
 //Basically just takes orders from the backtest scripts and queues it so they execute at the right time.
 //There's options for slippage/commission and infinite margin buying

@@ -5,7 +5,7 @@
 //  Created by Rob Graeber on Nov 3, 2012.
 //  Copyright 2012 Rob Graeber. All rights reserved.
 //
-package com.dt.classes;
+package com.qt.classes;
 
 import java.util.Date;
 import java.util.ArrayList;
