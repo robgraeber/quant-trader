@@ -5,13 +5,13 @@ Easy to setup - Steps:
 1. Download source and open in favorite IDE (I like Eclipse)
 2. Add JVM options to run configuration: -d64 -Xms512m -Xmx4g
 3. Add all the jars in resource folder to the build path
-4. Run starting from the main DataTrader class
+4. Run starting from the main QuantTrader class
 5. Enter 'database download' to download initial set of Yahoo finance EOD data (~10 minutes).
 6. Then enter 'backtest test' to verify everything works, or 'help' to see all commands.
 
 
-Add custom backtesting scripts to: com.dt.modules.backtest.scripts  
-Add custom backtesting macros to: com.dt.modules.backtest.macros  
+Add custom backtesting scripts to: com.qt.modules.backtest.scripts  
+Add custom backtesting macros to: com.qt.modules.backtest.macros  
 Add custom stock lists (SP500, NASDAQ100, etc) to: /UserLists (then do 'database rebuild') 
 
 
