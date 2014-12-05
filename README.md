@@ -16,14 +16,14 @@ Add custom stock lists (SP500, NASDAQ100, etc) to: /UserLists (then do 'database
 
 
 Example Script:  
-![](https://dl.dropboxusercontent.com/u/6061717/Screenshot%202014-02-19%2014.47.49%20copy.png)
+![](https://cloud.githubusercontent.com/assets/2387719/5312322/81460100-7c25-11e4-928b-b868ae26e7bb.png)
 
 Screenshots:
 
-![](https://dl.dropboxusercontent.com/u/6061717/Screenshot%202014-02-19%2015.53.59.png)
+![](https://cloud.githubusercontent.com/assets/2387719/5312324/8a1dfcce-7c25-11e4-974f-8cd5393e8bbd.png)
 
-![](https://dl.dropboxusercontent.com/u/6061717/Screenshot%202014-02-19%2015.57.56.png)
+![](https://cloud.githubusercontent.com/assets/2387719/5312325/8e59b954-7c25-11e4-9ad6-d45a4423bb08.png)
 
-![](https://dl.dropboxusercontent.com/u/6061717/Screenshot%202014-02-19%2015.39.29.png)
+![](https://cloud.githubusercontent.com/assets/2387719/5312328/93cd961c-7c25-11e4-9fe9-93e3aaeb8a5d.png)
 
 Please fork and improve :)
