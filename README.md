@@ -1,3 +1,5 @@
+**Deprecated**: See https://github.com/effinggames/stock-trader for a better version written in Scala.
+
 Stock Backtester and Analysis application for EOD (End-of-day) data. Easy creation of java-based scripts, macros, user lists without touching internal code. Uses hot-reloading to rapidly edit scripts without restarting. Automatically downloads data from Yahoo finance.
 
 Easy to setup - Steps:
